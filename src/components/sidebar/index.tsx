@@ -11,4 +11,4 @@ const Component = (props: Props) => {
     )
 }
 
-export const SideBar = connect((state: any) => ({ status: state.changeSideBar.status }))(Component);
+export const SideBar = connect((state: any) => ({ status: state.changeSideBar.status }))(Component); 
