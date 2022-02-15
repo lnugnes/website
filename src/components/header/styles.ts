@@ -9,14 +9,12 @@ export const HeaderComp = styled.header`
     height: 60px;
 
     background-color: white;
-    width: 100%;
-
     box-shadow: 0 2px 15px 0 rgb(0 0 0 / 5%);
 `
 
 export const HeaderContainer = styled.div`
     margin: auto;
-    max-width: 95%;
+    max-width: 90%;
     height: 100%;
 `
 
