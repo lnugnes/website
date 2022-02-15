@@ -23,7 +23,7 @@ export const SideBarItems = styled.div`
     justify-content: center;
     flex-direction: column;
     
-    gap: 2rem;
+    gap: 1.5rem;
 
     margin-top: 2rem;
 `
@@ -66,4 +66,17 @@ export const FontIcon = styled.i<any>`
             ${color && `color: ${color};`}
         `
     )}
+
+    width: 17px;
+    height: 17px;
+`
+
+export const SideBarDivisor = styled.hr`
+    width: 100%;
+    height: 2px;
+
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+
+    background-color: #646777;
 `

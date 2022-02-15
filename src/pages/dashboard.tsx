@@ -6,8 +6,11 @@ import { SideBar } from '@components/sidebar';
 const Dashboard: NextPage = () => {
   return (
     <>
-      <Header/>
-      <SideBar/>
+      <Head>
+        <title>Dashboard | Meu Guru Financeiro</title>
+      </Head>
+      <Header />
+      <SideBar />
     </>
   );
 };

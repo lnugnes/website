@@ -5,6 +5,8 @@ export default class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <title>Meu Guru Financeiro</title>
+
                     <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
                     <link rel="apple-touch-icon" href="/favicon.ico" />
 
