@@ -3,7 +3,6 @@ import { DefaultFlexContainer } from '@styles/default';
 import { Overlay, OverlayTrigger, Popover, Tooltip } from 'react-bootstrap';
 import { ShowNotifications } from './showNotifications';
 import { DefaultButton, FontIcon, HeaderComp, HeaderContainer, ItensGroup, NotifyCollapse, UserImage, UserName } from './styles';
-import { SassColor } from 'sass';
 
 import { useDispatch } from 'react-redux';
 import { sideBarToggle } from '@redux/actions/changeSideBar';
